@@ -1,0 +1,297 @@
+<html>
+	<head>
+		<title>Dokumentace semestrální práce z předmětu Značkovací jazyky</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<header>
+			<h1>Dokumentace semestrální práce z předmětu Značkovací jazyky</h1>
+		</header>
+		
+		<nav id="nav">
+			<h2>Obsah práce</h2>
+			<ul>
+				<li><a href="#nav">				Obsah s odkazy </a></li>
+				<li><a href="#introduction">	Úvod</a></li>
+				<li><a href="#methodology">		Metodika</a></li>
+				<li><a href="#element_desc">	Popis elementů a atributů</a></li>
+				<li><a href="#transform_desc">	Popis transformace</a></li>
+				<li><a href="#summary">			Závěr</a></li>
+				<li><a href="#footer">			Zápatí</a></li>
+			</ul>
+		</nav>
+		
+		<main> 
+			<article>
+				<section id="introduction">
+					<h2>Úvod</h2>
+					<p>
+						Semestrální práce z předmětu Značkovací jazyky se zabývá tvorbou XML dokumentu popisujícího soubor do kterého aplikace ukládá svá nastavení. Součástí je také tvorba XSD schéma, XSL transformace do JSON a tato dokumentace. Dokument byl vytvořeno jako konfigurace postavy v RPG mobilní hře.
+					</p>
+				</section>      
+				
+				<section id="methodology">
+					<h2>Metodika</h2>
+					<p>Všechny dokumenty byly vytvořeny v programu NetBeans IDE 8.2 a SublimeText pro MacOS.</p>
+					<p>
+						Nejprve byl vytvořen hrubý XML dokument se jmény elementů a atributů. Ten byl následně konverttován do XSD pomocí webové aplikace <a href="http://www.freeformatter.com/xsd-generator.html">Freeformater</a> v designu Russian Doll.
+					</p>
+					<p>
+						Finální XML bylo vytvořeno ručně.
+					</p>
+
+					
+
+					<p>
+						XSL transformace do JSON byla psána ručně.
+					</p>
+
+					<p>
+						Celý projekt byl nahrán na <a href="">GitHubu</a>.
+					</p>
+				</section>
+				
+				<section id="element_desc">
+					<h2>Popis elementů a atributů</h2>
+
+					<table border="1">
+						<tr>
+							<th>jmeno</th>
+							<th>Jmeno vytvořené postavy</th>
+						</tr>
+						<tr>
+							<td>rasa</td>
+							<td>K jaké rase přísluší postava</td>
+						</tr>
+						<tr>
+							<td>pohlaví</td>
+							<td>Jakého pohlaví je postava</td>
+						</tr>
+						<tr>
+							<td>barva_pleti</td>
+							<td>Jakou barvu pleti má postava</td>
+						</tr>
+						<tr>
+							<td>tvar_obliceje</td>
+							<td>Popisuje, jaký tvar tváře bude mít postava</td>
+						</tr>
+						<tr>
+							<td>styl_vlasu</td>
+							<td>Popisuje jakym stylem je ucesana postava</td>
+						</tr>
+						<tr>
+							<td>barva_vlasu</td>
+							<td>Popisuje, jakou barvu vlasů má postava</td>
+						</tr>
+						<tr>
+							<td>oci</td>
+							<td>Popisuje, jaké oči vytvořená postava má</td>
+						</tr>
+						<tr>
+							<td>barva_oci</td>
+							<td>Popisuje, jakou barvu očí postava má</td>
+						</tr>
+						<tr>
+							<td>Nos</td>
+							<td>Popisuje, jaký nos postava má</td>
+                        </tr>
+						<tr>
+							<td>Usi</td>
+							<td>Popisuje, jakou velukost uší postava má</td>
+						</tr>
+						<tr>
+							<td>Tetování</td>
+							<td>Popisuje, zda postava má tetování nebo ne</td>
+						</tr>
+						<tr>
+							<td>Piercing</td>
+							<td>Popisuje, zda postava má piercing nebo ne </td>
+						</tr>
+						<tr>
+							<td>Usta</td>
+							<td>Popisuje, jakou barvu úst má postava</td>
+						</tr>
+                         <tr>
+                        <td>tvar_brady</td>
+                        <td>Popisuje, jaký tvar brady postava má </td>
+                        </tr>
+						<tr>
+							<td>material_brneni</td>
+							<td>Popisuje, z jakého materiálu je brnění vyrobeno</td>
+						</tr>
+						<tr>
+							<td>ochrana_brneni</td>
+							<td>Popisuje, jakou hodnotu ochrany dané brnění přidává</td>
+						</tr>
+						<tr>
+							<td>druh_brneni</td>
+							<td>Popisuje, zda je brnění očarované nebo ne</td>
+						</tr>
+						<tr>
+							<td>vaha_brneni</td>
+							<td>Popisuje, jakou váhu dané brnění má</td>
+						</tr>
+						<tr>
+							<td>soulbound_brneni</td>
+							<td>Určuje, zda je brnění prodatelné nebo ne</td>
+						</tr>
+						<tr>
+							<td>druh_zbrane</td>
+							<td>Popisuje, jaký druh zbraně postava má</td>
+						</tr>
+						<tr>
+							<td>poskozeni_zbrane</td>
+							<td>Popisuje, jaké poškození daná zbraň uděluje</td>
+						</tr>
+						<tr>
+							<td>material_zbrane</td>
+							<td>Popisuje, z jakého materiálu je zbraň vyrobena</td>
+						</tr>
+						<tr>
+							<td>drzeni_zbrane</td>
+							<td>Popisuje, jestli je zbraň oboučurní nebo jednoruční</td>
+						</tr>
+						<tr>
+							<td>druh_zbrane</td>
+							<td>Popisuje, zda zbraň očarovaná nebo ne</td>
+						</tr>
+						<tr>
+							<td>rychlost_utoku</td>
+							<td>Popisuje, jakou rychlostí je možno útočit</td>
+						</tr>
+						<tr>
+							<td>vaha_zbrane</td>
+							<td>Popisuje, jakou váhu daná zbraň má</td>
+						</tr>
+						<tr>
+							<td>soulbound_zbrane</td>
+							<td>Určuje, zda je zbraň možnost prodat</td>
+						</tr>
+						<tr>
+							<td>druh_prilby</td>
+							<td>Popisuje, jakého druhu přilba je</td>
+						</tr>
+						<tr>
+							<td>ochrana_prilbyy</td>
+							<td>Popisuje, jakou ochranu přilba přidává charakteru</td>
+						</tr>
+						<tr>
+							<td>material_prilby</td>
+							<td>Popisuje, z jakého materiálu je přilba vytvořena</td>
+						</tr>
+						<tr>
+							<td>druh_prilby</td>
+							<td>Popisuje, zda je přilba očarovaná nebo ne</td>
+						</tr>
+						<tr>
+							<td>vaha_prilby</td>
+							<td>Popisuje, jakou váhu přilba má</td>
+						</tr>
+						<tr>
+							<td>soulbound_prilby</td>
+							<td>Určuje, zda je možno přilbu prodat</td>
+						</tr>
+						<tr>
+							<td>druh_nahrdelniku</td>
+							<td>Určuje, jakého druhu náhrdelník je</td>
+						</tr>
+						<tr>
+							<td>bonus_nahrdelniku</td>
+							<td>Popisuje, jaký bonus náhrdelník přidává</td>
+						</tr>
+						<tr>
+							<td>vzacnost_nahrdelniku</td>
+							<td>Popisuje, zda je náhrdelník vzácný</td>
+						</tr>
+						<tr>
+							<td>druh_kalhot</td>
+							<td>Popisuje, jakého druhu jsou kalhoty</td>
+						</tr>
+						<tr>
+							<td>ochrana_kalhot</td>
+							<td>Popisuje, jakou ochranu kalhoty přidávají</td>
+						</tr>
+						<tr>
+							<td>material_kalhot</td>
+							<td>Z jakého materiálu jsou kalhoty vyrobeny</td>
+						</tr>
+						<tr>
+							<td>druh_kalhot</td>
+							<td>Jakého druhu kalhoty jsou</td>
+						</tr>
+						<tr>
+							<td>vaha_kalhot</td>
+							<td>Popisuje, jakou váhu kalhoty mají</td>
+						</tr>
+                        <tr>
+							<td>druh_bot</td>
+							<td>Popisuje, jakého druhu boty jsou</td>
+						</tr>
+						<tr>
+							<td>material_bot</td>
+							<td>Z jakého materiálu jsou boty vyrobeny</td>
+						</tr>
+						<tr>
+							<td>ochrana_bot</td>
+							<td>Jakou ochranu přidávají</td>
+						</tr>
+						<tr>
+							<td>druh_bot</td>
+							<td>Zda jsou očarované nebo ne</td>
+						</tr>
+						<tr>
+							<td>vaha_bot</td>
+							<td>Kolik boty váží</td>
+						</tr>
+						<tr>
+							<td>druh_chranice</td>
+							<td>Jakého druhu chránič je</td>
+						</tr>
+						<tr>
+							<td>ochrana_chranice</td>
+							<td>Jakou ochranu přidává</td>
+						</tr>
+						<tr>
+							<td>material_chranice</td>
+							<td>Popisuje z jakého materiálu chránič je</td>
+						</tr>
+						<tr>
+							<td>druh_chranice</td>
+							<td>Jestli je očarovaný nebo ne</td>
+						</tr>
+					</table>
+				</section>
+				
+				<section id="transformation_desc">
+					<h2>Popis transformace</h2>
+
+					<h3>JSON</h3>
+					<p>
+						Data jsou transformována do JSON dokumentu. Jsou strukturována stejně jako výchozí XML soubor. 
+					</p>
+				</section>
+				
+				<section id="summary">
+					<h2>Závěr</h2>
+					<p>
+						Jazyk XML je používán pro strukturované ukládání dat nebo při komunikaci mezi programy. Jeho výhodou je dobrá čitelnost a šikoké možnosti filtrování a omezování dat a datovýh typů. Práce s ním je také snadná, protože k jeho editaci stačí pouze textový editor.
+					</p>
+				</section>
+			</article>
+		</main>
+		
+		<footer id="footer">
+			<hr>
+			<table>
+				<tr>
+					<td>Autor:</td>
+					<td>Jakub Hejný</td>
+				</tr>
+				<tr>
+					<td>Cvičení:</td>
+					<td>Čtvrtek 15:45 Sudý</td>
+				</tr>
+			</table>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,130 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="create">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="postava" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="popis">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="jmeno"/>
+                    <xs:element type="xs:string" name="rasa"/>
+                    <xs:element type="xs:string" name="pohlavi"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="hlava">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="barva_pleti"/>
+                    <xs:element type="xs:string" name="tvar_obliceje"/>
+                    <xs:element type="xs:string" name="styl_vlasu"/>
+                    <xs:element type="xs:string" name="barva_vlasu"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="oblicej">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="oci"/>
+                    <xs:element type="xs:string" name="barva_oci"/>
+                    <xs:element type="xs:string" name="nos"/>
+                    <xs:element type="xs:string" name="usi"/>
+                    <xs:element type="xs:string" name="tetovani"/>
+                    <xs:element type="xs:string" name="piercing"/>
+                    <xs:element type="xs:string" name="usta"/>
+                    <xs:element type="xs:string" name="tvar_brady"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="telo">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="material_brneni"/>
+                    <xs:element type="xs:short" name="ochrana_brneni"/>
+                    <xs:element type="xs:string" name="druh_brneni"/>
+                    <xs:element type="xs:byte" name="vaha_brneni"/>
+                    <xs:element type="xs:string" name="soulbond_breni"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ruce">
+                <xs:complexType>
+                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element type="xs:string" name="druh_zbrane"/>
+                    <xs:element type="xs:short" name="poskozeni_zbrane"/>
+                    <xs:element type="xs:string" name="material_zbrane"/>
+                    <xs:element type="xs:string" name="drzeni_zbrane"/>
+                    <xs:element type="xs:byte" name="rychlost_utoku"/>
+                    <xs:element type="xs:byte" name="vaha_zbrane"/>
+                    <xs:element type="xs:string" name="soulbdon_zbrane"/>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="vrsek">
+                <xs:complexType>
+                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element type="xs:string" name="druh_prilby"/>
+                    <xs:element type="xs:short" name="ochrana_prilby"/>
+                    <xs:element type="xs:string" name="material_prilby"/>
+                    <xs:element type="xs:byte" name="vaha_prilby"/>
+                    <xs:element type="xs:string" name="soulbond_prilby"/>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="krk">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="druh_nahrdelniku"/>
+                    <xs:element type="xs:string" name="bonus_nahrdelniku"/>
+                    <xs:element type="xs:string" name="vzacnost_nahrdelniku"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="prsty">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="druh_prstenu"/>
+                    <xs:element type="xs:string" name="bonus"/>
+                    <xs:element type="xs:string" name="vzacnost_prstenu"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="nohy">
+                <xs:complexType>
+                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element type="xs:string" name="druh_kalhot"/>
+                    <xs:element type="xs:short" name="ochrana_kalhot"/>
+                    <xs:element type="xs:string" name="material_kalhot"/>
+                    <xs:element type="xs:byte" name="vaha_kalhot"/>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="boty">
+                <xs:complexType>
+                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element type="xs:string" name="druh_bot"/>
+                    <xs:element type="xs:string" name="material_bot"/>
+                    <xs:element type="xs:string" name="ochrana_bot"/>
+                    <xs:element type="xs:byte" name="vaha_bot"/>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="zapesti">
+                <xs:complexType>
+                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element type="xs:string" name="druh_chranice"/>
+                    <xs:element type="xs:byte" name="ochrana_chranice"/>
+                    <xs:element type="xs:string" name="material_chranice"/>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="id" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

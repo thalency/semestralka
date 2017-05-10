@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<create>
+    <postava id="po01">
+        <popis>
+            <jmeno>Lordus</jmeno>
+            <rasa>Clovek</rasa>
+            <pohlavi>Muz</pohlavi>
+            
+        </popis>
+        
+        <hlava>
+            <barva_pleti>Svetla</barva_pleti>
+            <tvar_obliceje>Kulaty</tvar_obliceje>
+            <styl_vlasu>Rozcuchany</styl_vlasu>
+            <barva_vlasu>Hneda</barva_vlasu>
+        </hlava>
+        
+        <oblicej>
+            <oci>Vykulene</oci>
+            <barva_oci>Modra</barva_oci>
+            <nos>Maly</nos>
+            <usi>Male</usi>
+            <tetovani>false</tetovani>
+            <piercing>true</piercing>
+            <usta>ruzova</usta>
+            <tvar_brady>Kulaty</tvar_brady>
+        </oblicej>
+        
+        
+        <telo>
+            <material_brneni>Ocel</material_brneni>
+            <ochrana_brneni>200</ochrana_brneni>
+            <druh_brneni>Ocarovane</druh_brneni>
+            <vaha_brneni>10</vaha_brneni>
+            <soulbond_breni>true</soulbond_breni>
+        </telo>
+        
+        <ruce>
+            <druh_zbrane>Sekyra</druh_zbrane>
+            <poskozeni_zbrane>150</poskozeni_zbrane>
+            <material_zbrane>Kalena ocel</material_zbrane>
+            <drzeni_zbrane>Obourucni</drzeni_zbrane>
+            <druh_zbrane>Neocarovana</druh_zbrane>
+            <rychlost_utoku>5</rychlost_utoku>
+            <vaha_zbrane>5</vaha_zbrane>
+            <soulbdon_zbrane>true</soulbdon_zbrane>
+        </ruce>
+        
+        <vrsek>
+            <druh_prilby>Otevrena</druh_prilby>
+            <ochrana_prilby>100</ochrana_prilby>
+            <material_prilby>Kuze</material_prilby>
+            <druh_prilby>Neocarovana</druh_prilby>
+            <vaha_prilby>3</vaha_prilby>
+            <soulbond_prilby>false</soulbond_prilby>
+        </vrsek>
+        
+        <krk>
+            <druh_nahrdelniku>Kouzelny</druh_nahrdelniku>
+            <bonus_nahrdelniku>Rychlost</bonus_nahrdelniku>
+            <vzacnost_nahrdelniku>true</vzacnost_nahrdelniku>
+        </krk>
+        
+        <prsty>
+            <druh_prstenu>Kouzelny</druh_prstenu>
+            <bonus>Zdravi</bonus>
+            <vzacnost_prstenu>false</vzacnost_prstenu>
+        </prsty>
+        
+        <nohy>
+            <druh_kalhot>Platove</druh_kalhot>
+            <ochrana_kalhot>150</ochrana_kalhot>
+            <material_kalhot>Ocel</material_kalhot>
+            <druh_kalhot>Ocarovane</druh_kalhot>
+            <vaha_kalhot>4</vaha_kalhot>
+           
+        </nohy>
+        
+        <boty>
+            <druh_bot>Vysoke</druh_bot>
+            <material_bot>Kuze</material_bot>
+            <ochrana_bot>50</ochrana_bot>
+            <druh_bot>Neocarovane</druh_bot>
+            <vaha_bot>2</vaha_bot>
+            
+        </boty>
+        
+        <zapesti>
+            <druh_chranice>Latkovy</druh_chranice>
+            <ochrana_chranice>50</ochrana_chranice>
+            <material_chranice>Latka</material_chranice>
+            <druh_chranice>Neocarovany</druh_chranice>
+        </zapesti>
+        
+        
+           
+            
+   </postava>
+   
+   <postava id="po02">
+        <popis>
+            <jmeno>Kubus</jmeno>
+            <rasa>Clovek</rasa>
+            <pohlavi>Muz</pohlavi>
+            
+        </popis>
+        
+        <hlava>
+            <barva_pleti>Sneda</barva_pleti>
+            <tvar_obliceje>Hranaty</tvar_obliceje>
+            <styl_vlasu>Ucesanyy</styl_vlasu>
+            <barva_vlasu>Hneda</barva_vlasu>
+        </hlava>
+        
+        <oblicej>
+            <oci>Vykulene</oci>
+            <barva_oci>Modra</barva_oci>
+            <nos>Maly</nos>
+            <usi>Velke</usi>
+            <tetovani>true</tetovani>
+            <piercing>true</piercing>
+            <usta>ruzova</usta>
+            <tvar_brady>Kulaty</tvar_brady>
+        </oblicej>
+        
+        
+        <telo>
+            <material_brneni>Ocel</material_brneni>
+            <ochrana_brneni>150</ochrana_brneni>
+            <druh_brneni>Neocarovane</druh_brneni>
+            <vaha_brneni>10</vaha_brneni>
+            <soulbond_breni>true</soulbond_breni>
+        </telo>
+        
+        <ruce>
+            <druh_zbrane>Sekyra</druh_zbrane>
+            <poskozeni_zbrane>150</poskozeni_zbrane>
+            <material_zbrane>Kalena ocel</material_zbrane>
+            <drzeni_zbrane>Obourucni</drzeni_zbrane>
+            <druh_zbrane>Neocarovana</druh_zbrane>
+            <rychlost_utoku>5</rychlost_utoku>
+            <vaha_zbrane>5</vaha_zbrane>
+            <soulbdon_zbrane>true</soulbdon_zbrane>
+        </ruce>
+        
+        <vrsek>
+            <druh_prilby>Uzavrena</druh_prilby>
+            <ochrana_prilby>150</ochrana_prilby>
+            <material_prilby>Kuze</material_prilby>
+            <druh_prilby>Neocarovana</druh_prilby>
+            <vaha_prilby>3</vaha_prilby>
+            <soulbond_prilby>false</soulbond_prilby>
+        </vrsek>
+        
+        <krk>
+            <druh_nahrdelniku>Kouzelny</druh_nahrdelniku>
+            <bonus_nahrdelniku>Zdravi</bonus_nahrdelniku>
+            <vzacnost_nahrdelniku>true</vzacnost_nahrdelniku>
+        </krk>
+        
+        <prsty>
+            <druh_prstenu>Kouzelny</druh_prstenu>
+            <bonus>Odolnost</bonus>
+            <vzacnost_prstenu>false</vzacnost_prstenu>
+        </prsty>
+        
+        <nohy>
+            <druh_kalhot>Platove</druh_kalhot>
+            <ochrana_kalhot>150</ochrana_kalhot>
+            <material_kalhot>Ocel</material_kalhot>
+            <druh_kalhot>Ocarovane</druh_kalhot>
+            <vaha_kalhot>4</vaha_kalhot>
+           
+        </nohy>
+        
+        <boty>
+            <druh_bot>Vysoke</druh_bot>
+            <material_bot>Kuze</material_bot>
+            <ochrana_bot>50</ochrana_bot>
+            <druh_bot>Neocarovane</druh_bot>
+            <vaha_bot>2</vaha_bot>
+            
+        </boty>
+        
+        <zapesti>
+            <druh_chranice>Latkovy</druh_chranice>
+            <ochrana_chranice>50</ochrana_chranice>
+            <material_chranice>Latka</material_chranice>
+            <druh_chranice>Neocarovany</druh_chranice>
+        </zapesti>
+   </postava>
+   
+   <postava id="po03">
+        <popis>
+            <jmeno>Hahame</jmeno>
+            <rasa>Ork</rasa>
+            <pohlavi>Zena</pohlavi>
+            
+        </popis>
+        
+        <hlava>
+            <barva_pleti>Zelena</barva_pleti>
+            <tvar_obliceje>Kulaty</tvar_obliceje>
+            <styl_vlasu>Zadny</styl_vlasu>
+            <barva_vlasu>Zadna</barva_vlasu>
+        </hlava>
+        
+        <oblicej>
+            <oci>Vykulene</oci>
+            <barva_oci>Hnede</barva_oci>
+            <nos>Maly</nos>
+            <usi>Male</usi>
+            <tetovani>false</tetovani>
+            <piercing>true</piercing>
+            <usta>ruzova</usta>
+            <tvar_brady>Kulaty</tvar_brady>
+        </oblicej>
+        
+        
+        <telo>
+            <material_brneni>Ocel</material_brneni>
+            <ochrana_brneni>200</ochrana_brneni>
+            <druh_brneni>Ocarovane</druh_brneni>
+            <vaha_brneni>10</vaha_brneni>
+            <soulbond_breni>true</soulbond_breni>
+        </telo>
+        
+        <ruce>
+            <druh_zbrane>Kyj</druh_zbrane>
+            <poskozeni_zbrane>250</poskozeni_zbrane>
+            <material_zbrane>Drevo</material_zbrane>
+            <drzeni_zbrane>Obourucni</drzeni_zbrane>
+            <druh_zbrane>Neocarovana</druh_zbrane>
+            <rychlost_utoku>5</rychlost_utoku>
+            <vaha_zbrane>5</vaha_zbrane>
+            <soulbdon_zbrane>true</soulbdon_zbrane>
+        </ruce>
+        
+        <vrsek>
+            <druh_prilby>Otevrena</druh_prilby>
+            <ochrana_prilby>100</ochrana_prilby>
+            <material_prilby>Kuze</material_prilby>
+            <druh_prilby>Neocarovana</druh_prilby>
+            <vaha_prilby>3</vaha_prilby>
+            <soulbond_prilby>false</soulbond_prilby>
+        </vrsek>
+        
+        <krk>
+            <druh_nahrdelniku>Kouzelny</druh_nahrdelniku>
+            <bonus_nahrdelniku>Rychlost</bonus_nahrdelniku>
+            <vzacnost_nahrdelniku>true</vzacnost_nahrdelniku>
+        </krk>
+        
+        <prsty>
+            <druh_prstenu>Kouzelny</druh_prstenu>
+            <bonus>Zdravi</bonus>
+            <vzacnost_prstenu>false</vzacnost_prstenu>
+        </prsty>
+        
+        <nohy>
+            <druh_kalhot>Kozene</druh_kalhot>
+            <ochrana_kalhot>100</ochrana_kalhot>
+            <material_kalhot>Kuze</material_kalhot>
+            <druh_kalhot>Ocarovane</druh_kalhot>
+            <vaha_kalhot>4</vaha_kalhot>
+           
+        </nohy>
+        
+        <boty>
+            <druh_bot>Platove</druh_bot>
+            <material_bot>Ocel</material_bot>
+            <ochrana_bot>50</ochrana_bot>
+            <druh_bot>Neocarovane</druh_bot>
+            <vaha_bot>2</vaha_bot>
+            
+        </boty>
+        
+        <zapesti>
+            <druh_chranice>Latkovy</druh_chranice>
+            <ochrana_chranice>50</ochrana_chranice>
+            <material_chranice>Latka</material_chranice>
+            <druh_chranice>Neocarovany</druh_chranice>
+        </zapesti>
+   </postava>
+   
+   <postava id="po04">
+        <popis>
+            <jmeno>Vykuk</jmeno>
+            <rasa>Trpaslik</rasa>
+            <pohlavi>Muz</pohlavi>
+            
+        </popis>
+        
+        <hlava>
+            <barva_pleti>Svetla</barva_pleti>
+            <tvar_obliceje>Hranaty</tvar_obliceje>
+            <styl_vlasu>Rozcuchany</styl_vlasu>
+            <barva_vlasu>Zrzava</barva_vlasu>
+        </hlava>
+        
+        <oblicej>
+            <oci>Vykulene</oci>
+            <barva_oci>Hneda</barva_oci>
+            <nos>Maly</nos>
+            <usi>Male</usi>
+            <tetovani>false</tetovani>
+            <piercing>true</piercing>
+            <usta>ruzova</usta>
+            <tvar_brady>Kulaty</tvar_brady>
+        </oblicej>
+        
+        
+        <telo>
+            <material_brneni>Ocel</material_brneni>
+            <ochrana_brneni>200</ochrana_brneni>
+            <druh_brneni>Ocarovane</druh_brneni>
+            <vaha_brneni>10</vaha_brneni>
+            <soulbond_breni>true</soulbond_breni>
+        </telo>
+        
+        <ruce>
+            <druh_zbrane>Kladivo</druh_zbrane>
+            <poskozeni_zbrane>300</poskozeni_zbrane>
+            <material_zbrane>Kalena ocel</material_zbrane>
+            <drzeni_zbrane>Obourucni</drzeni_zbrane>
+            <druh_zbrane>Ocarovana</druh_zbrane>
+            <rychlost_utoku>5</rychlost_utoku>
+            <vaha_zbrane>5</vaha_zbrane>
+            <soulbdon_zbrane>true</soulbdon_zbrane>
+        </ruce>
+        
+        <vrsek>
+            <druh_prilby>Otevrena</druh_prilby>
+            <ochrana_prilby>100</ochrana_prilby>
+            <material_prilby>Kuze</material_prilby>
+            <druh_prilby>Neocarovana</druh_prilby>
+            <vaha_prilby>3</vaha_prilby>
+            <soulbond_prilby>false</soulbond_prilby>
+        </vrsek>
+        
+        <krk>
+            <druh_nahrdelniku>Kouzelny</druh_nahrdelniku>
+            <bonus_nahrdelniku>Rychlost</bonus_nahrdelniku>
+            <vzacnost_nahrdelniku>true</vzacnost_nahrdelniku>
+        </krk>
+        
+        <prsty>
+            <druh_prstenu>Kouzelny</druh_prstenu>
+            <bonus>Zdravi</bonus>
+            <vzacnost_prstenu>false</vzacnost_prstenu>
+        </prsty>
+        
+        <nohy>
+            <druh_kalhot>Platove</druh_kalhot>
+            <ochrana_kalhot>150</ochrana_kalhot>
+            <material_kalhot>Ocel</material_kalhot>
+            <druh_kalhot>Ocarovane</druh_kalhot>
+            <vaha_kalhot>4</vaha_kalhot>
+           
+        </nohy>
+        
+        <boty>
+            <druh_bot>Vysoke</druh_bot>
+            <material_bot>Kuze</material_bot>
+            <ochrana_bot>50</ochrana_bot>
+            <druh_bot>Neocarovane</druh_bot>
+            <vaha_bot>2</vaha_bot>
+            
+        </boty>
+        
+        <zapesti>
+            <druh_chranice>Latkovy</druh_chranice>
+            <ochrana_chranice>50</ochrana_chranice>
+            <material_chranice>Latka</material_chranice>
+            <druh_chranice>Neocarovany</druh_chranice>
+        </zapesti>
+   </postava>
+   
+   <postava id="05">
+        <popis>
+            <jmeno>Treblin</jmeno>
+            <rasa>Clovek</rasa>
+            <pohlavi>Zena</pohlavi>
+            
+        </popis>
+        
+        <hlava>
+            <barva_pleti>Svetla</barva_pleti>
+            <tvar_obliceje>Kulaty</tvar_obliceje>
+            <styl_vlasu>Rozcuchany</styl_vlasu>
+            <barva_vlasu>Hneda</barva_vlasu>
+        </hlava>
+        
+        <oblicej>
+            <oci>Vykulene</oci>
+            <barva_oci>Zelena</barva_oci>
+            <nos>Maly</nos>
+            <usi>Male</usi>
+            <tetovani>false</tetovani>
+            <piercing>true</piercing>
+            <usta>ruzova</usta>
+            <tvar_brady>Kulaty</tvar_brady>
+        </oblicej>
+        
+        
+        <telo>
+            <material_brneni>Latka</material_brneni>
+            <ochrana_brneni>100</ochrana_brneni>
+            <druh_brneni>Ocarovane</druh_brneni>
+            <vaha_brneni>3</vaha_brneni>
+            <soulbond_breni>true</soulbond_breni>
+        </telo>
+        
+        <ruce>
+            <druh_zbrane>Hul</druh_zbrane>
+            <poskozeni_zbrane>100</poskozeni_zbrane>
+            <material_zbrane>Drevo</material_zbrane>
+            <drzeni_zbrane>Obourucni</drzeni_zbrane>
+            <druh_zbrane>Neocarovana</druh_zbrane>
+            <rychlost_utoku>5</rychlost_utoku>
+            <vaha_zbrane>5</vaha_zbrane>
+            <soulbdon_zbrane>true</soulbdon_zbrane>
+        </ruce>
+        
+        <vrsek>
+            <druh_prilby>Otevrena</druh_prilby>
+            <ochrana_prilby>100</ochrana_prilby>
+            <material_prilby>Kuze</material_prilby>
+            <druh_prilby>Neocarovana</druh_prilby>
+            <vaha_prilby>3</vaha_prilby>
+            <soulbond_prilby>false</soulbond_prilby>
+        </vrsek>
+        
+        <krk>
+            <druh_nahrdelniku>Kouzelny</druh_nahrdelniku>
+            <bonus_nahrdelniku>Rychlost</bonus_nahrdelniku>
+            <vzacnost_nahrdelniku>true</vzacnost_nahrdelniku>
+        </krk>
+        
+        <prsty>
+            <druh_prstenu>Kouzelny</druh_prstenu>
+            <bonus>Zdravi</bonus>
+            <vzacnost_prstenu>false</vzacnost_prstenu>
+        </prsty>
+        
+        <nohy>
+            <druh_kalhot>Latkove</druh_kalhot>
+            <ochrana_kalhot>10</ochrana_kalhot>
+            <material_kalhot>Latka</material_kalhot>
+            <druh_kalhot>Ocarovane</druh_kalhot>
+            <vaha_kalhot>4</vaha_kalhot>
+           
+        </nohy>
+        
+        <boty>
+            <druh_bot>Vysoke</druh_bot>
+            <material_bot>Kuze</material_bot>
+            <ochrana_bot>50</ochrana_bot>
+            <druh_bot>Neocarovane</druh_bot>
+            <vaha_bot>2</vaha_bot>
+            
+        </boty>
+        
+        <zapesti>
+            <druh_chranice>Latkovy</druh_chranice>
+            <ochrana_chranice>50</ochrana_chranice>
+            <material_chranice>Latka</material_chranice>
+            <druh_chranice>Neocarovany</druh_chranice>
+        </zapesti>
+   </postava>
+</create>
+ 
+
